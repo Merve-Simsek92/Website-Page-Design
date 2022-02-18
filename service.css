@@ -1,0 +1,91 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #35424a;
+    color:white;
+    border-bottom: 2px solid #a9508b;
+}
+ul{
+    display:flex;
+   
+}
+li{
+     margin-right: 20px;
+     list-style-type: none;}
+     a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    a:hover{
+        color:#a9508b
+    }
+    span{
+        color:#a9508b
+    }
+    .middle{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #35424a;
+        height: 5rem;
+        color:white
+    }
+    input{
+    height: 1.6rem;
+    }
+    button{
+        background-color: #E84A1D;
+        border: none;
+        width:4rem;
+        height:2rem;
+        margin-right: 20px;
+        border-radius: 1px;
+        color: white;
+    }
+    .middle p{
+        margin-left:10px;
+    }
+    .p1{
+        background-color: rgba(204, 204, 204, 0.685);
+        height: 25%;
+        border: 0.5px solid rgba(211, 203, 203, 0.89);
+        margin: 10px;
+        padding:10px;
+        line-height: 25px;
+        width: 100%;
+    }
+    .alt{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mail{
+       background-color: #35424a;
+       height: 320px;
+       margin-top: 10px;
+       color: white;
+       width: 40%;
+    
+    }
+    .mail input, .mail label,.mail textarea{
+        margin: 5px;
+        margin-left: 10px;
+        width:80% ;
+
+    }
+    .mail button {
+        margin: 5px;
+        margin-left: 10px;
+        width: ; }
+        .footer{
+            text-align: center;
+            background-color: #35424a;
+            height: 6.3rem;
+            margin-top: 20px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-top:160px;
+        }
+    
